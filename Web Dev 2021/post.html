@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <title>Review Post</title>
+</head>
+<body>
+  <header>
+      <nav class="navbar">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./post.html">Post</a></li>
+        </ul>
+      </nav>
+    <div class="post">
+      <h1>Review</h1>
+      <form action="review">
+        <label for="">Movie Title :</label>
+        <input type="title" required>
+        <label for="">Rate :</label>
+        <input type="rate">
+        <label for="">Your Review :</label>
+        <textarea name="review" placeholder="Type" cols="50" rows="10" required></textarea>
+        <label for="name">Name :</label>
+        <input type="name"required>
+        <button class="btn waves-effect waves-light" type="post" name="action" title="Are u ready?">Post
+        <i class="material-icons right">send</i>
+        </button>
+      </form>
+    </div>
+  </header>
+</body>
+</html>
